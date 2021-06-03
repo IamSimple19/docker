@@ -9,7 +9,7 @@ node ('non-docker-agent') {
 
     stage('Build image') {
   
-       app = docker.build("brandonjones085/test")
+       app = docker.build("simple1331/test")
     }
 
     stage('Push image') {
